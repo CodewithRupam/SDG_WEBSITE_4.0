@@ -1,0 +1,1166 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.li {
+    margin: 0px 30px;
+    display: block;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.btn2 {
+    height: 50px;
+    width: 100px;
+    border: orange;
+    background: transparent;
+    box-shadow: 0px 0px 20px orange;
+    border-radius: 50px;
+    transition: 0.5s;
+    color: white;
+}
+
+.btn2:hover {
+    background-color: orange;
+    color: white;
+    animation: button 1s alternate;
+}
+
+.li:hover {
+    text-decoration: 2px underline;
+    color: greenyellow;
+    text-shadow: 0px 0px 15px green;
+}
+
+.main {
+    background-size: cover;
+    height: 830px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.heading {
+    font-size: 40px;
+    -webkit-text-stroke: 2px white;
+    width: 600px;
+    text-shadow: 20px 20px 20px greenyellow;
+    color: transparent;
+    animation: imgAnimate 2s;
+}
+
+.second_logo {
+    height: 300px;
+    width: 300px;
+    box-shadow: 0px 0px 30px green;
+    animation: imgAnimate 2s;
+}
+
+@keyframes imgAnimate {
+    0% {
+        margin-bottom: 1000px;
+    }
+
+    10% {
+        margin-bottom: 900px;
+    }
+
+    20% {
+        margin-bottom: 800px;
+    }
+
+    30% {
+        margin-bottom: 700px;
+    }
+
+    40% {
+        margin-bottom: 600px;
+    }
+
+    50% {
+        margin-bottom: 500px;
+    }
+
+    60% {
+        margin-bottom: 400px;
+    }
+
+    70% {
+        margin-bottom: 300px;
+    }
+
+    80% {
+        margin-bottom: 200px;
+    }
+
+    90% {
+        margin-bottom: 100px;
+    }
+
+    100% {
+        margin-bottom: 0px;
+    }
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.footer {
+    background-color: black;
+    height: 300px;
+    color: white;
+}
+
+.second_heading {
+    font-size: 35px;
+    color: white;
+    width: 500px;
+}
+
+.renewable {
+    height: 1800px;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.second_button {
+    height: 50px;
+    width: 200px;
+    background-color: transparent;
+    border: 2px solid greenyellow;
+    color: white;
+    border-radius: 50px;
+}
+
+.main_renewable {
+    filter: blur(0px);
+}
+
+.main2 {
+    width: 600px;
+}
+
+.another2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form_renewable {
+    width: 70%;
+    margin: auto auto;
+    height: 500px;
+}
+
+.main_form {
+    width: 70%;
+    margin: auto auto;
+    height: 500px;
+    background-color: rgba(255, 255, 255);
+    box-shadow: 0px 0px 20px orange;
+}
+
+.second_button:hover {
+    background-color: orange;
+    border: 2px solid white;
+    color: white;
+    animation: button 1s infinite;
+}
+
+.goal_box {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.goal_box img {
+    height: 450px;
+    width: 100%;
+}
+
+.goalbox2 img {
+    height: 250px;
+    width: 100%;
+}
+
+.box {
+    height: 600px;
+    width: 400px;
+    box-shadow: 0px 20px 40px;
+    transition: 0.5s;
+}
+
+.goalbox2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.sdg {
+    height: 100%;
+    background-size: cover;
+}
+
+.writing2 {
+    height: 299px;
+    width: 100%;
+    background-color: white;
+    border: none;
+    border-right: 2px solid orange;
+    border-bottom: 2px solid orange;
+    border-left: 2px solid orange;
+    box-shadow: 0px 0px 40px orange;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.box:hover {
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.writing2:hover {
+    height: 299px;
+    background-color: orange;
+    color: white;
+    font-size: 17px;
+    border: none;
+    border-right: 2px solid rgb(255, 255, 255);
+    border-bottom: 2px solid rgb(255, 255, 255);
+    border-left: 2px solid rgb(255, 255, 255);
+    box-shadow: 0px 0px 40px rgb(170, 255, 0);
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social h4 {
+    margin: 0px 40px;
+}
+
+.icons img {
+    height: 20px;
+    margin: 0px 15px;
+    width: 20px;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.heading2 {
+    -webkit-text-stroke: 2px rgb(200, 0, 255);
+    color: transparent;
+}
+
+.detail2 {
+    color: rgba(2, 13, 224, 0.571);
+    font-size: 22px;
+}
+
+.calculator {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.form {
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #d5ff9a;
+    border-radius: 10px;
+    font-size: 20px;
+    -webkit-text-stroke: 1px solid white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="number"] {
+    padding: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.button {
+    padding: 12px 30px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+table {
+    width: 600px;
+    border: 4px solid orange;
+    margin: auto auto;
+    box-shadow: 0px 0px 40px;
+}
+
+thead {
+    background-color: #007bff;
+    color: #fff;
+}
+
+thead th {
+    padding: 10px;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tbody td {
+    padding: 10px;
+}
+
+tbody td:first-child {
+    font-weight: bold;
+}
+
+.another {
+    width: 600px;
+}
+
+.third {
+    color: transparent;
+    -webkit-text-stroke: 2px white;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.ul2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.heading3 {
+    font-size: '30px';
+}
+
+@keyframes button {
+    0% {
+        box-shadow: 0px 0px 20px orange;
+    }
+
+    30% {
+        box-shadow: 0px 0px 40px rgb(40, 191, 9);
+    }
+
+    50% {
+        box-shadow: 0px 0px 60px rgb(5, 169, 219);
+    }
+
+    80% {
+        box-shadow: 0px 0px 30px rgb(170, 1, 173);
+    }
+
+    100% {
+        box-shadow: 0px 0px 0px orange;
+    }
+}
+
+.first_writing {
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    margin: auto auto;
+    width: 90%;
+}
+
+.d {
+    font-size: '25px'
+}
+
+.detail {
+    font-size: '25px'
+}
+
+.heading6 {
+    font-size: 55px;
+    -webkit-text-stroke: 1px greenyellow;
+    color: transparent;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.a {
+    height: 300px;
+    width: 300px;
+    border-radius: 50px;
+}
+
+.first_details {
+    text-align: justify;
+    margin: 0px 100px;
+}
+
+.heading4 {
+    font-size: 55px;
+    -webkit-text-stroke: 1px violet;
+    color: transparent;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.heading7 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: transparent;
+    -webkit-text-stroke: 2px rgb(132, 0, 255);
+    text-align: center;
+    text-shadow: 10px 10px 10px black;
+}
+
+.d {
+    font-size: 25px;
+}
+
+.img_sign img {
+    height: 100%;
+    width: 100%;
+}
+
+.sign_in {
+    display: flex;
+    height: 100%;
+}
+
+.img_sign {
+    height: 850px;
+    width: 50%;
+    background-size: cover;
+    box-shadow: 20px 10px 40px black;
+}
+
+.page_sign2 {
+    margin: auto auto;
+    width: 80%;
+    height: 80%;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.custom-file-input {
+    background-color: #f0f0f0;
+    color: #333;
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.custom-file-label {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.custom-file-label:after {
+    content: 'Choose File';
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+
+.page_sign {
+    height: 89%;
+    width: 80%;
+    margin: auto auto;
+    box-shadow: 10px 10px 40px black;
+}
+
+.page_sign .label {
+    height: 60%;
+    width: 80px;
+    margin: 0px 40px;
+}
+
+.page_sign .input2 {
+    margin: 20px 0px;
+    width: 100%;
+    border: none;
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    outline: none;
+    border-radius: 0px;
+    border-bottom: 2px solid black;
+}
+
+.main_form input {
+    margin: auto;
+    width: 100%;
+    border: none;
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    outline: none;
+    border-radius: 0px;
+    color: rgb(0, 0, 0);
+    border-bottom: 2px solid black;
+    background-color: transparent;
+}
+
+.sign_button {
+    height: 40px;
+    width: 90%;
+    margin: 20px 25px;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    border: 0px;
+}
+
+.main6 {
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.page_sign .input {
+    height: 60%;
+    width: 200px;
+}
+
+.form_sign {
+    width: 50%;
+    height: 800px;
+}
+
+.img_sign h1 {
+    width: '550px';
+}
+
+.App {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #333;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+}
+
+.option {
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    width: 60%;
+    margin: 10px auto;
+    cursor: pointer;
+}
+
+.option:hover {
+    background-color: #e0e0e0;
+}
+
+.selected {
+    background-color: #4caf50;
+    color: #fff;
+}
+
+.selected:hover {
+    background-color: #388e3c;
+}
+
+.Question {
+    width: 60%;
+    margin: auto auto;
+    height: 450px;
+    border-radius: 30px;
+    background-color: rgb(180, 180, 180, 0.5);
+    box-shadow: 10px 0px 40px black;
+}
+
+.d {
+    width: 90%;
+    text-align: center;
+}
+
+.Result {
+    width: 800px;
+    height: 500px;
+    text-align: center;
+    border-radius: 50px;
+    margin: 40px 0px;
+    background-color: white;
+    box-shadow: 10px 0px 40px black;
+}
+
+.challenge-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.challenge {
+    height: 400px;
+    width: 450px;
+    background-color: rgba(200, 255, 237, 0.5);
+    text-align: center;
+    margin: 0px 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 40px lightgreen;
+    transition: 0.5s;
+    border: 2px solid orange;
+}
+
+.challenge h5 {
+    color: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.challenge p {
+    color: rgb(255, 255, 255);
+    margin: 50px 0px;
+
+}
+
+.about_writing {
+    width: 60%;
+    margin: auto auto;
+}
+
+.heading_about {
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    margin-top: 80px;
+}
+
+.challenge:hover {
+    height: 400px;
+    width: 450px;
+    cursor: pointer;
+    color: white;
+    background-color: rgba(255, 157, 0, 0.5);
+    border: 2px solid white;
+}
+
+.challenges {
+    margin-bottom: 20px;
+    display: flex;
+    margin: auto auto;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.join,
+.resources {
+    margin-top: 30px;
+    color: white;
+}
+
+.challenge-bg {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+
+@media screen and (max-width: 768px) {
+    .challenges {
+        display: block;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .detail_renewable {
+
+        font-size: 12px;
+    }
+
+    .Question {
+        width: 90%;
+    }
+
+    .challenge {
+        width: 250px;
+        height: 300px;
+        font-size: 20px;
+        margin: auto;
+    }
+
+    .btn {
+        font-size: 10px;
+    }
+
+    .challenge:hover {
+        width: 250px;
+        height: 300px;
+    }
+
+    .footer h4 {
+        font-size: 25px;
+    }
+
+    .name2 {
+        font-size: 20px;
+    }
+
+    .option {
+        font-size: 8px;
+    }
+
+    .sign_in {
+        display: block;
+    }
+
+    .img_sign {
+        height: 350px;
+        width: 100%;
+        background-size: cover;
+        box-shadow: 20px 10px 40px black;
+    }
+
+    .form_sign {
+        width: 100%;
+        height: 850px;
+    }
+
+    .page_sign {
+        width: 94%;
+    }
+
+    .page_sign .input2 {
+        font-size: 16px;
+    }
+
+    .img_sign h1 {
+        font-size: 20px;
+        width: 300px;
+    }
+
+    .heading3 {
+        font-size: 8px;
+    }
+
+    .li {
+        font-size: 12px;
+        margin: 0px 10px;
+    }
+
+    .third {
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .btn {
+        height: 40px;
+        width: 100px;
+    }
+
+    .main {
+        width: 100%;
+        display: block;
+        height: 650px;
+    }
+
+    .goal_box {
+        display: block;
+    }
+
+    .box {
+        height: 700px;
+        margin: auto auto;
+        max-width: 95%;
+    }
+
+    .main_form {
+        width: 100%;
+        height: 600px;
+    }
+
+    .box img {
+        height: 200px;
+        width: 100%;
+    }
+
+    .writing .heading {
+        font-size: 20px;
+        text-align: center;
+        width: 300px;
+        margin: auto;
+    }
+
+    .writing h1 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .calculator {
+        display: block;
+    }
+
+    .form {
+        width: 90%;
+        height: 700px;
+    }
+
+    .form input {
+        height: 30px;
+    }
+
+    .calc2 {
+        margin: 0px 20px;
+    }
+
+    .another {
+        width: 300px;
+        margin: auto;
+    }
+
+    .d {
+        text-align: center;
+        font-size: 25px;
+        width: 100%;
+    }
+
+    .form_renewable {
+        width: 90%;
+    }
+
+    .heading6 {
+        text-align: center;
+    }
+
+    .detail {
+        text-align: left;
+        width: 90%;
+        margin: auto auto;
+    }
+
+    .second_button {
+        width: 130px;
+        font-size: 20px;
+        height: 50px;
+    }
+
+    .buttons {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .writing span {
+        font-size: 10px;
+    }
+
+    .writing .main img {
+        height: 200px;
+        width: 200px;
+    }
+
+    .second_logo {
+        height: 250px;
+        width: 250px;
+        margin: 30px 0px;
+    }
+
+    .img {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    form {
+        max-width: 400px;
+    }
+
+    table {
+        width: 90%;
+    }
+
+    .first_writing {
+        display: block;
+        width: auto;
+        align-items: baseline;
+        justify-content: center;
+    }
+
+    .first_writing p {
+        font-size: 10px;
+    }
+
+    .a {
+        display: none;
+    }
+
+    .first_details {
+        margin: 0px 0px;
+    }
+
+    .heading {
+        font-size: 30px;
+    }
+
+    .heading4 {
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .Result {
+        width: 100%;
+        margin: auto auto;
+        height: 400px;
+        border-radius: 10px;
+    }
+    .main_form{
+        height: 450px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .footer h4 {
+        font-size: 25px;
+    }
+
+    .challenges {
+        display: block;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .challenge {
+        border: 4px solid orange;
+        width: 250px;
+        height: 350px;
+        font-size: 13px;
+        margin: auto;
+    }
+
+    .btn {
+        font-size: 10px;
+    }
+
+    .challenge:hover {
+        width: 250px;
+        height: 350px;
+    }
+
+    .name2 {
+        font-size: 25px;
+    }
+
+    .Result {
+        width: 100%;
+        margin: auto auto;
+    }
+
+    .options {
+        font-size: 13px;
+    }
+
+    .sign_in {
+        display: block;
+    }
+
+    .img_sign {
+        height: 350px;
+        width: 100%;
+        background-size: cover;
+        box-shadow: 20px 10px 40px black;
+    }
+
+    .form_sign {
+        width: 100%;
+        height: 750px;
+    }
+
+    .page_sign .input2 {
+        font-size: 10px;
+    }
+
+    .img_sign h1 {
+        font-size: 20px;
+        width: 300px;
+    }
+
+    .heading3 {
+        font-size: 8px;
+    }
+
+    .li {
+        font-size: 12px;
+        margin: 0px 10px;
+    }
+
+    .third {
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .btn {
+        height: 40px;
+        width: 100px;
+    }
+
+    .main {
+        width: 100%;
+        display: block;
+        height: 650px;
+    }
+
+    .goal_box {
+        display: block;
+    }
+
+    .box {
+        height: 500px;
+        margin: auto auto;
+        max-width: 90%;
+    }
+
+    .box img {
+        height: 200px;
+        width: 100%;
+    }
+
+    .writing .heading {
+        font-size: 20px;
+        text-align: center;
+        width: 300px;
+        margin: auto;
+    }
+
+    .writing h1 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .calculator {
+        display: block;
+    }
+
+    .form {
+        width: 80%;
+    }
+
+    .calc2 {
+        margin: 0px 20px;
+    }
+
+    .another {
+        width: 300px;
+        margin: auto;
+    }
+
+    .d {
+        text-align: center;
+        font-size: 15px;
+        width: 100%;
+    }
+
+    .heading6 {
+        text-align: center;
+    }
+
+    .detail {
+        text-align: left;
+        width: 90%;
+        margin: auto auto;
+    }
+
+    .second_button {
+        width: 130px;
+        font-size: 20px;
+        height: 50px;
+    }
+
+    .buttons {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .writing span {
+        font-size: 10px;
+    }
+
+    .writing .main img {
+        height: 200px;
+        width: 200px;
+    }
+
+    .second_logo {
+        height: 250px;
+        width: 250px;
+        margin: 30px 0px;
+    }
+
+    .img {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    form {
+        max-width: 400px;
+    }
+
+    table {
+        width: 90%;
+    }
+
+    .first_writing {
+        display: block;
+        width: auto;
+        align-items: baseline;
+        justify-content: center;
+    }
+
+    .first_writing p {
+        font-size: 10px;
+    }
+
+    .a {
+        display: none;
+    }
+
+    .first_details {
+        margin: 0px 0px;
+    }
+
+    .heading {
+        font-size: 30px;
+    }
+
+    .heading4 {
+        text-align: center;
+        font-size: 30px;
+    }
+}

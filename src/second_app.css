@@ -1,0 +1,28 @@
+.first_img img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50px;
+}
+.first_writing{
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    margin: auto auto;
+    width: 90%;
+}
+.heading{
+    font-size: 55px;
+    -webkit-text-stroke: 1px greenyellow;
+    color: transparent;
+    font-family: 'Times New Roman', Times, serif;
+}
+.first_details{
+    text-align: justify;
+    margin: 0px 100px;
+}
+.heading4{
+    font-size: 55px;
+    -webkit-text-stroke: 1px violet;
+    color: transparent;
+    font-family: 'Times New Roman', Times, serif;
+}
